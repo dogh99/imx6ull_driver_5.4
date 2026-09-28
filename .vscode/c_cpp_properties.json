@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "Linux Kernel",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/megumi/nxp-imx6ull-sdk/imx-kernel/include",
+                "/home/megumi/nxp-imx6ull-sdk/imx-kernel/include/uapi",
+                "/home/megumi/nxp-imx6ull-sdk/imx-kernel/include/generated",
+                "/home/megumi/nxp-imx6ull-sdk/imx-kernel/include/generated/uapi",
+                "/home/megumi/nxp-imx6ull-sdk/imx-kernel/arch/arm/include",
+                "/home/megumi/nxp-imx6ull-sdk/imx-kernel/arch/arm/include/uapi",
+                "/home/megumi/nxp-imx6ull-sdk/imx-kernel/arch/arm/include/generated",
+                "/home/megumi/nxp-imx6ull-sdk/imx-kernel/arch/arm/include/generated/uapi"
+            ],
+            "defines": [
+                "__KERNEL__",
+                "MODULE"
+            ],
+            "forcedInclude": [
+                "/home/megumi/nxp-imx6ull-sdk/imx-kernel/include/linux/kconfig.h"
+            ],
+            "compilerPath": "/usr/local/arm/gcc-linaro-4.9.4-2017.01-x86_64_arm-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc",
+            "intelliSenseMode": "linux-gcc-arm",
+            "cStandard": "gnu99"
+        }
+    ],
+    "version": 4
+}
